@@ -5,369 +5,429 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>FEATHER FLOW</title>
   <link rel="stylesheet" href="style.css">
+  <!-- BREAKPOINTS -->
+  <link rel="stylesheet" href="mobile-small.css" media="(min-width: 320px)">
+  <link rel="stylesheet" href="mobile-medium.css" media="(min-width: 375px)">
+  <link rel="stylesheet" href="mobile-large.css" media="(min-width: 425px)">
+  <link rel="stylesheet" href="tablet.css" media="(min-width: 768px)">
+  <link rel="stylesheet" href="laptop.css" media="(min-width: 1024px)">
+  <link rel="stylesheet" href="laptop-large.css" media="(min-width: 90rem)">
+  <link rel="stylesheet" href="xl.css" media="(width: 2560px)">
+
+  <!-- FONT STYLE -->
   <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+
 </head>
-<body class="body">
-  
+<body>
   <header>
-    <section class="section-1">
-    <div class="logo"> 
-      <p class="brand-name">FEATHER <br> FLOW<p>
-      </div>
-      <nav>
-        <ul>
-          <div class="nav-links">
-
-            <img src="/images/rbg hamburger close menu.png" alt="" class="hamburger-hide-menu" onclick="hideMenu() ">
-            
-          <li class="list"><a href="#">Our Process</a></li>
-          <li class="list"><a class="about-us" href="#">About Us</a></li>
-          <button class="start-btn-1 btns">Start Now</button>
-        </div>
-         
-          <img src="/images/rbg hamburger menu.png" alt="" class="hamburger-menu" onclick="showMenu() "> 
-        
-        </ul>
-      </nav> 
-  </header>
-</section>
-  <main>
-    <section class="section-2">
-      <div>
-      <h1 class="topic">Build your next <br>MVP in <span class="days">days</span></h1>
-       <p class="topic-paragraph">With our full-stack expertise, we turn your ideas into <br>market-ready products quickly, without sacrificing quality.</p>
-       <button class="start-btn-2 btns">Start Now</button>
-       <button class="learn-more-btn btns">Learn more</button>
-      </div>
-      <!--  -->
-      <div class="container">
-        <div class="bulb-frame">
-          <div class="bulb-card">
-            <img class="bulb" src="/images/lightbulb.png" alt="bulb">
-          </div>
-        </div>
-        <img class="star-icon" src="/images/star.png" alt="star icon">
-        <img class="speed-icon" src="/images/Card 2.png" alt="">
-
-       <div class="circle-1">
-        <div class="circle-2">
-          <div class="circle-3">
-          </div>
-        </div>
-      </div>
-      <div class="square">
-        <div>
-        <p class="full-stack-mvp-dev">Full Stack MVP Development</p>
-   
-        <div class="inputs">
-         <button class="design-btn btnn" onclick="
-           designButtons();
-         ">Design</button>
-   
-         <button class="code-btn btnn" onclick="
-           codeButtons();
-         ">Code</button>
-   
-         <button class="text-btn btnn" onclick="
-           textButtons();
-         ">Text</button>
+<section class="nav-section">
+    <div class="brand-logo">
+      <p class="brand-name">FEATHER <br>FLOW</p>
+    </div>
+   <div class="nav-links">
+      <a href="#" class=" link our-process">Our process</a>
+      <a href="#" class=" link about-us">About Us</a>
    </div>
-         
-     <p class="team-invite">Invite Team</p>
-     <!-- Email -->
-     <div class="email-btn">
-     <label for="email"></label>
-     <input class="email" type="text" placeholder="Enter your email">
-       <button class="share-btn">Share</button>
+   <button class=" btn nav-btn">Start Now</button>
+   <!-- <img src="/images/rbg hamburger menu.png" alt="" width="35" height="35"> -->
+</section>
+</header>
+<!--  -->
+<main>
+<article class="article-1">
+  <div>
+  <h1 class="article-1-headline">Build your next <br> MVP in <span class="days">days</span></h1>
+  <p class="article-1-paragraph">With our full-stack expertise, we turn your ideas into <br>market-ready products quickly, without sacrificing quality.</p>
+  <button class=" btn article-1-start-btn">
+    Start Now
+  </button>
+  <button class=" btn learn-btn">
+    Learn More
+  </button>
+</div>
+
+<div>
+  <!-- CIRCLE -->
+   <div class="circle-1">
+    <div class="circle-2">
+      <div class="circle-3">
+      </div>
     </div>
+<!-- SQUARE -->
+<div class="square">
+
+  <p class="full-stack-mvp">Full Stack MVP Development</p>
+
+  <!-- <input class="text-input" type="text"> -->
+  <div class="text-input">
+    <button class="design-btn input-btns" onclick="
+    designSwitch();
+    ">Design</button>
+  <button class="code-btn input-btns" onclick="
+    codeSwtich();
+  ">Code</button>
+  <button class="text-btn input-btns" onclick="
+    textSwtich();
+  ">Text</button>
+  </div>
+
+  <p class="invite">Invite Team</p>
+
+  <input class="email-input" type="email" placeholder="Enter your email">
+  <button class=" btn share-btn">Share</button>
+  
     <p class="project-lead">Project Lead</p>
-                 <!-- Project leaders image -->
-       <!-- JANU'S IMG -->
-      <figure class="figure-1">
-        <img class="janu-ling-img leaders-img" src="/images/image.png" alt="Janu Lingeswaran"> 
-        <p class="janu-l">Janu Lingeswaran</p>
-        </figure>
-      <!-- PHILLIP'S IMG -->
-      <figure class="figure-2">
-          <img class="phillip-img leaders-img" src="/images/image (2).png" alt="Phillip Kant">
-           <p class="phillip">Phillip Kant</p>
-      </figure>
+    <!-- IMAGES -->
+  <figure class="img-fig">
+    <img class="project-lead-img-1" src="images/image.png">
+    <p class="lead-name">Janu Lingeswaran</p>
+  </figure>
+
+  <figure class="img-fig">
+    <img class="project-lead-img-2" src="images/image (2).png">
+  
+  <p class="lead-name">Philipp Kant</p>
+</figure>
+</div>
+<!-- END -->
+ 
+<!-- star -->
+<img class="star-icon" src="/images/star.png" alt="star icon">
+<!--star end  -->
+
+   <!-- bulb -->
+   <div class="bulb-frame">
+    <div class="bulb-card">
+      <img class="bulb" src="/images/lightbulb.png" alt="bulb">
     </div>
-    </section>
+   </div> 
+   <!--bulb end  -->
 
-    
-    <!-- SECTION 3 -->
-    <section class="section-3">
-    
-       <h2 class="section-3-header">A Full-stack MVP in <br> Record Time.</h2>
-       <p class="section-3-paragraph">FeatherFlow brings you a full stack, high quality, ready to launch <br> product that's fluid and fast.</p>
-       <div class="sec-3-circle">
-      </div>
-      <div class="rectangle-1">
-      </div>
-      <div class="rectangle-2">
-      </div>
-      <div class="rectangle-3">
-      </div>
-      <!--  -->
-      <div class="frame">
-        <div class="schedule-frame">
-          <div class="icon-frame">
-            <img class="frame-icons" src="/images/calendar.svg" alt="calendar icon">
-          </div>
-            <h3 class="frame-headings">On your schedule, not ours.</h3>
-            <p class="frame-paragraphs">FeatherFlow specializes in agile, rapid digital <br>product development, ensuring low risk and <br> high flexibility to meet your schedule.</p>
-        </div>
-        <div class="launch-frame">
-          <div class="icon-frame">
-              <img class="frame-icons" src="/images/rocket.svg" alt="launch icon">
-            </div>
-              <h3 class="frame-headings">Launch in Days, Not Months.</h3>
-              <p class="frame-paragraphs">We're lean on code, but big in vision - and <br> we can have you up and running in days or <br>weeks rather than months or years!</p>
-        </div>
-      </div>
-    </section>
-        <!-- Our Flow -->
-   <section class="section-4">
-        <h1 class="our-flow-heading"> Our Flow</h1>
-          <p class="our-flow-paragraph">With FeatherFlow, your dev process is as light as a feather. Clear <br> steps to your MVP development:
-          </p>
-          <!-- <a href="https://www.flaticon.com/free-icons/menu-bar" title="menu bar icons">Menu bar icons created by Tanah Basah - Flaticon</a> -->
-          
-          <div class=" our-flow-frame-1">
-            <div class="our-flow-rows">
-              <div class="chat-icon-container">
-             <img class="chat-icon our-flow-icons" src="/images/chats.png" alt="chat-icon">
-            </div>
-             <h3 class="our-flow-headers">Initial Chat</h3>
-             <p class="our-flow-paragraphs">Discuss your vision,objectives <br>and requirements.  Understand <br>how we can support your goals</p>
-            </div>
-            <div class="our-flow-rows">
-             <img class="plan-icon our-flow-icons" src="/images/Icon.png" alt="plan icon">
-             <h3 class="our-flow-headers">Plan & Design</h3>
-             <p class="our-flow-paragraphs">Map out the product's design, <br> architecture, and key <br> functionalities in detail.</p>
-            </div>
-            <div class="our-flow-rows">
-              <div class="laptop-icon-container">
-             <img class="laptop-icon our-flow-icons" src="/images/laptop-code.png" alt="laptop icon">
-            </div>
-             <h3 class="our-flow-headers">Rapid Dev</h3>
-             <p class="our-flow-paragraphs rapid-p">Learn code, quick iterations, and <br> continuous feedback loops, fast <br> pace, but high quality.</p>
-            </div>
-          </div>
+     <!-- Speed icon -->
+<img class="speed-icon" src="/images/Card 2.png" alt="">
+<!-- speed icon end -->
 
-           <div class="our-flow-frame-2">
-            <div class="our-flow-rows">
-              <img class="test-icon our-flow-icons" src="/images/Icon (3).png" alt="test-icon">
-              <h3 class="our-flow-headers">Test</h3>
-              <p class="our-flow-paragraphs test-p">Rigorous testing and quality <br> checks ensure that your MVP is <br> market-ready.</p>
-            </div>
-             <div class="our-flow-rows">
-              <img class="launch-icon our-flow-icons" src="/images/Icon (4).png" alt="launch icon">
-              <h3 class="our-flow-headers">Launch</h3>
-              <p class="our-flow-paragraphs launch-p">Once polished and ready, we <br>help deploy your MVP, making <br>sure it hits ground running.</p>
-             </div>
-             <div class="our-flow-rows">
-              <div class="rotate-icon-container">
-              <img class="rotate-icon our-flow-icons" src="/images/rotate-circle (1).png" alt="rotate icon">
-            </div>
-              <h3 class="our-flow-headers">Iterate</h3>
-              <p class="our-flow-paragraphs rotate-p">We assist in gathering feedback <br>and making any iterations to <br>enhance your product.</p>
-             </div>
-          </div>
-        </div>
-    </section>
-        <!-- SECTION 5 -->
-    <section class="section-5">
-      <div>
-       <div class="sub-circle"></div>
-      <img class="section-5-img" src="/images/IMG_E7549.JPG" alt="bitmap img">
-       <div class="rectangle-4">
+</div> <!-- circle closing tag -->
+</div> <!-- parent div closing tag -->
+</article>
 
-       </div>
+<!-- ARTICLE-2 -->
+<article class="article-2">
+  <h2 class="article-2-headline">
+    A Full-Stack MVP in Record Time.
+  </h2>
+  <p class="article-2-paragraph">
+    FeatherFlow brings you a full stack, high quality, ready to launch product that's fluid and fast.
+  </p>
+  <div class="article-2-circle">
+  </div>
+  <div class="rectangle-1">
+  </div>
+  <div class="rectangle-2">
+  </div>
+ <div class="container-frame">
+
+   <div class="schedule-frame">
+     <div class="schedule-icon-frame">
+      <img class="schedule-icon" src="/images/calendar.svg" alt="">
+     </div>
+     <h3 class="frame-headlines">On your schedule, not ours.</h3>
+     <p class="frame-paragraph">FeatherFlow specializes in agile, rapid digital product development, ensuring low risk and high flexibility to meet your schedule.</p>
+   </div>
+
+   <div class="launch-frame">
+    <div class="launch-icon-frame">
+      <img class="rocket-icon" src="/images/rocket.svg" alt="">
     </div>
-      <div>
-      <h1 class="section-5-header">Fast, lean and <br>elegant MVP
-      </h1>
-      <p class="section-5-p">
-        At FeatherFlow, we know the challenge of MVP and <br>have developed system which combine the <br>lightness of a feather with the flowing rhythm of <br>rapid development cycles.
+    <h3 class="frame-headlines">Launch in Days, Not Months</h3>
+    <p class="frame-paragraph">We're lean on code, but big in vision - and we can have you up and running in days or weeks rather than months or years!</p>
+   </div>
+
+ </div>
+</article>
+
+<!-- ARTICLE 3 -->
+<article class="article-3">
+  <h2 class="article-3-headline">
+    Our Flow
+  </h2>
+  <p class="article-3-paragraph">
+   With FeatherFlow, your dev process is as light as a feather. Clear steps to your MVP development:
+  </p>
+ 
+  <div class="flow-container">
+    <div class="initial-chat">
+      <div class="initial-chat-icon-frame">
+        <img src="/images/chats.png" alt="" class="initial-chat-icon">
+      </div>
+      
+      <h3 class="flow-headline">Initial Chat</h3>
+
+      <p class="flow-p">Discuss your vision, objectives
+        and requirements. Understand
+        how we can support your goals</p>
+    </div>
+
+    <div class="plan-design">
+      <img src="/images/Icon.png" alt="" class="plan-design-icon">
+      <h3 class="flow-headline">Plan and Design</h3>
+      <p class="flow-p">
+        Map out the product's design,
+        architecture, and key
+        functionalities in detail.
       </p>
-      <button class="start-btn-3 btns">Start Now</button>
     </div>
-    </section>
-      <!-- SECTION 6  -->
-    <section class="section-6">
-      <h4 class="section-6-header">Meet the Dream Team</h4>
-      <p class="section-6-p">
-        We're a core team of developers and designers based in Germany, <br>complemented by freelancers from around the globe.
-      </p>
-      <figure class="section-6-fig">
-        <div class="janu">
-          <div class="janu-without-about">
-        <img class="janu-img" src="/images/Oval.png" alt="janu lingeswaran">
-        <figcaption class="section-6-fig-caps janu-figcap">Janu Lingeswaran</figcaption>
-        <p class="qualification janu-qualification">Product Consultant <br>Full-Stack Software Engineer</p> 
-      </div>
-          <p class="about about-janu">The founder and driving force behind <br>FeatherFlow thrives in both consulting and <br>engineering roles, having spearhead <br>multiple product innovators. <br>
-          </p>
-             <!-- <a href="https://google.com"><img class="web-icon web-icon-1" src="/images/web (2).png" alt="web icon"></a> -->
-             <a href="https://google.com"><img class="sec-6-j-icon" src="/images/webicon.png" width="40px" height="40px"></a>
-             <a href="https://linkedin.com"><img class="linkedin-icon" src="/images/newlinkedin.png" width="40px" height="40px"></a>
-         </div>
 
-<!-- PHILLIP KANT -->
-<div class="philipp">
-  <div class="philipp-without-about">
-  <img class="philipp-img" src="/images/Oval (1).png" alt="philipp kant">
-    <figcaption class="section-6-fig-caps philipp-figcap">Philipp Kant</figcaption>
-    <div>
-<p class="qualification philipp-qualification">UI/UX Design Lead <br>Frontend Developer</p> 
+    <div class="rapid-dev">
+      <div class="rapid-dev-icon-frame">
+        <img src="/images/laptop-code.png" alt="" class="rapid-dev-icon">
+      </div>
+      <h3 class="flow-headline">Rapid Dev</h3>
+      <p class="flow-p">
+        Learn code, quick iterations, and
+        continuous feedback loops, fast
+        pace, but high quality.
+      </p>
+    </div>
+
+    <div class="test">
+      <img src="/images/Icon (3).png" alt="" class="test-icon">
+      <h3 class="flow-headline">Test</h3>
+
+      <p class="flow-p">
+        Rigorous testing and quality
+        checks ensure that your MVP is
+        market-ready.
+      </p>
+    </div>
+
+    <div class="launch">
+      <img src="/images/Icon (4).png" alt="" class="launch-icon">
+      <h3 class="flow-headline">Launch</h3>
+
+      <p class="flow-p">
+        Once polished and ready, we
+        help deploy your MVP, making
+        sure it hits ground running.
+      </p>
+    </div>
+
+    <div class="iterate">
+      <div class="iterate-icon-frame">
+        <img src="/images/rotate-circle (1).png" alt="" class="iterate-icon">
+      </div>
+       <h3 class="flow-headline">Iterate</h3>
+
+      <p class="flow-p">
+        We assist in gathering feedback
+        and making any iterations to
+        enhance your product.
+      </p>
     </div>
   </div>
-    <div class="about">
-        <p class="about-philipp ">Philipp has a sharp eye for design,<br>ensuring every interface is intuitive and <br>visually stunning. His commits to crafting <br>the best UX resonates in every project. <br>
-          <!-- <a href="https://google.com"><img class="web-icon web-icon-2" src="/images/web (2).png" alt="website icon"></a> -->
-          <a href="https://google.com"><img class="sec-6-p-icon" src="/images/webicon.png" width="40px" height="40px"></a>
-          <a href="https://linkedin.com"><img class="linkedin-icon" src="/images/newlinkedin.png" width="40px" height="40px"></a>
-        </div>
-        </div> 
+</article>
 
-        <!-- CHRISTAIN -->
-        <div class="christian">
-          <div class="christian-without-about">
-       <img class="christian-img" src="/images/Oval (2).png" alt="Christian Schumacher">
-       <div class="christian-figcap">
-       <figcaption class="section-6-fig-caps">Christian Schumacher</figcaption> 
-      </div>
-     <p class="qualification christian-qualification">Product Consultant <br> AI/ML Specialist</p> </div>
-       <p class="about about-christain">Christian's entrepreneurial spirit <br>complements his deep expertise in AI and <br> ML. He innovates consistently, aligning <br> cutting-edge solutions with market needs.
-    </p>
-    <div>
-      </figure>
-    </section>
+<!-- ARTICLE 4 -->
+<article class="article-4">
 
-    <!-- SECTION 7 -->
-    <section class="section-7">
-       <h4 class="sec-7-heading">Ready to start your MVP?</h4>
-       <p class="sec-7-p">Elevate Your idea with FeatherFlow: Fast, Affordable, High-Quality MVPs. <br>Transform your vision into a market-ready product rapidly and without <br>breaking the bank. Start Now!</p>
-       <div class="btn-4">
-       <button class="start-btn-4 btns">Start Now</button>
-      </div>
-      <div class="semi-circle">
-      </div>
-      <div class="rectangle-1 rec-5"></div>
-      <div class="circle-4">
-      </div>
-      <div class="rectangle-1 rec-6">
-      </div>
-    </section>
-  </main>
-  <footer>
-   <nav class="footer-nav-menu">
-    <a href="#">Home</a>
-    <a href="#">About Us</a>
-    <a href="#">Our Process</a> <span class="line">|</span>
-    <a href="#">Legal</a>
-  </nav>
-  <p class="footer-p">Still need more time to think? Subscribe for our updates.</p>
+  <div class="article-4-circle">
+    <div class="sub-circle"></div>
+  <img src="/images/IMG_E7549.JPG" alt="bitmap" class="bitmap-img">
+    <div class="rectangle-3">
+    </div>
+</div>
+<div class="article-4-container">
+  <h2 class="article-4-headline">
+    Fast, lean and elegant MVP
+  </h2>
+  <p class="article-4-paragraph">At FeatherFlow, we know the challenge of MVP and have developed a system which combine the lightness of a feather with the flowing rhythm of rapid development cycles.</p>
+  <div class="btn-4-container">
+  <button class=" btn article-4-start-btn">
+    Start Now
+  </button>
+</div>
+</div>
+</article>
 
+<!--ARTICLE 5 -->
+<article class="article-5">
+  <h2 class="article-5-headline">
+    Meet the Dream Team
+  </h2>
+  <p class="article-5-paragraph">
+We're a core team of developers and designers based in Germany, complemented by talented freelancers from around the globe.
+  </p>
+
+  <div class="team-container">
+     <!-- JANU -->
+    <div class="janu-ling">
+      <img src="/images/Oval.png" alt="janu" class="pictures">
+      <h3 class="janu">
+        Janu Lingeswaran
+      </h3>
+      <p class="team-role">
+        Product Consultant <br>
+        Full-Stack Software Engineer
+      </p>
+      <p class="team-about">
+        The founder and driving force behind
+        FeatherFlow thrives in both consulting and
+        engineering roles, having spearhead
+        multiple product innovators.
+      </p>
+      <div class="icon-container">
+        <img src="/images/twitter (2).png" alt="" class="x-icon">
+        <img src="/images/internet.png" alt="web" class="web-icon">
+        <img src="/images/linkedin (3).png" alt="linkedin" class="linkedin-icon">
+       </div>
+    </div>
+     <!-- PHILIPP -->
+    <div class="philipp-kant">
+      <img src="/images/Oval (1).png" alt="philipp" class="pictures">
+      <h3 class="philipp">
+        Philipp Kant
+      </h3>
+      <p class="team-role">
+        UI/UX Design Lead <br>
+        Frontend Developer
+      </p>
+      <p class="team-about">
+        Philipp has a sharp eye for design,
+        ensuring every interface is intuitive and
+        visually stunning. His commits to crafting
+        the best UX resonates in every project.
+      </p>
+       <div class="icon-container">
+        <img src="/images/internet.png" alt="web" class="web-icon">
+        <img src="/images/linkedin (3).png" alt="linkedin" class="linkedin-icon">
+       </div>
+    </div>
+     <!-- CHRISTIAN -->
+    <div class="christain-schumacher">
+      <img src="/images/Oval (2).png" alt="christian" class="pictures  christ">
+      <h3 class="christian">
+        Christian Schumacher
+      </h3>
+      <p class="team-role">
+        Product Consultant <br>
+        AI/ML Specialist
+      </p>
+      <p class="team-about">
+        Christian's entrepreneurial spirit
+        complements his deep expertise in AI and
+        ML. He innovates consistently, aligning
+        cutting-edge solutions with market needs.
+      </p>
+    </div>
+  </div>
+</article>
+<!-- ARTICLE 6 -->
+<article class="article-6">
+  <h2 class="article-6-headline">
+     Ready to start your MVP?
+  </h2>
+  <p class="article-6-paragraph">
+     Elevate Yout idea with FeatherFlow: Fast, Affordable, High-Quality MVPs. Transform your vision into a market-ready product rapidly and without breaking the bank. Start Now!
+  </p>
+  <div class=" btn btn-6-container">
+    <button class=" btn article-6-start-btn">
+      Start Now
+    </button>
+  </div>
+
+  <div class="semi-circle"></div>
+  <div class="rectangle-4"></div>
+  <div class="circle-4"></div>
+  <div class="rectangle-5">
+  </div>
+</article>
+
+<!-- FOOTER -->
+ <footer>
+  <div class="footer-navs">
+  <a class="footer-nav" href="#Home">Home</a>
+  <a class="footer-nav" href="#About us">About us</a>
+  <a class="footer-nav" href="#Our process">Our process</a>
+ <a class="vertical-line" href="">|</a>
+  <a class="footer-nav" href="#Legal">Legal</a>
+</div>
+  <p class="footer-paragraph">Still need some time to think? Subscribe to our updates.</p>
+
+  <div class="mail-btn-container">
+   <input class="footer-mail" type="email"placeholder="Enter your email address">
+   <button class=" btn footer-sub-btn">Subscribe</button>
+   </div>
+
+   <div class="footer-icon-container">
+    <a href="linkedin.com"><img class="footer-icons" src="/images/linkedin (3).png" alt=""></a>
+
+   <a href="twitter.com"> <img class="footer-icons" src="/images/twitter (2).png" alt=""></a>
+
+   <a href="facebook.com"> <img class="footer-icons" src="/images/facebook (3).png" alt=""></a>
   
+   <a href="instagram.com"><img class="footer-icons" src="/images/instagram (4).png" alt=""></a>
+  </div>
+   <p class="copyright">&copy;Copyright 2024 FeatherFlow. All rights reserved.</p>
+</footer> 
 
+</main>
+ <script>
+  const designBtn = document.querySelector('.design-btn');
+const codeBtn = document.querySelector('.code-btn');
+const textBtn = document.querySelector('.text-btn');
 
-<div class="footer-input">
-  <input class="footer-mail" type="text" placeholder="Enter your email address">
-  <button class="sub-btn btns">Subscribe</button>
-</div>
+function designSwitch() {
+   if (designBtn.classList.contains('input-btns')) {
+     designBtn.classList.remove('input-btns');
+     designBtn.classList.add('design-btn');
 
-<div class="footer-nav-icons">
-  <div>
-<a class="lnkdn-icon" href="https://www.linkedin.com"><img src="/images/linkedin (2).png" alt="linkedin"></a>
-<a class="twitter-icon" href="https://www.twitter.com"><img src="/images/twitter (1).png" alt="twitter"></a>
-<a class="fcbk-icon" href="https://www.facebook.com"><img src="/images/facebook (1).png" alt="facebook"></a>
-<a class="ig-icon" href="https://www.instagram.com"><img src="/images/instagram (2).png" alt="instagram"></a>
-</div>
-</div>
+     codeBtn.classList.add('input-btns');
+     codeBtn.classList.remove('code-btn');
 
-   
-    <p class="copyright">&copy; Copyright 2023 FeatherFlow All rights reserved.</p>
-  </footer>
+     textBtn.classList.add('input-btns');
+     textBtn.classList.remove('code-btn');
 
-
-
-   <script>
-    const designButton = document.querySelector('.design-btn');
-    const codeButton = document.querySelector('.code-btn');
-    const textButton = document.querySelector('.text-btn');
-
-
-    function designButtons() {
-      if (designButton.classList.contains('btn-change')) {
-        designButton.classList.remove('btn-change')
-
-      }else if (designButton) {
-        designButton.classList.add('btn-change')
-        codeButton.classList.remove('btn-change')
-        textButton.classList.remove('btn-change')
-      }
-    };
-
-    //////
-
-    function codeButtons() {
-      if (codeButton.classList.contains('btn-change')) {
-        codeButton.classList.remove('btn-change')
-
-      }else if (codeButton) {
-        codeButton.classList.add('btn-change')
-        designButton.classList.remove('btn-change')
-        textButton.classList.remove('btn-change')
-      }
-    };
-
-    //////
-
-    
-    function textButtons() {
-      if (textButton.classList.contains('btn-change')) {
-        textButton.classList.remove('btn-change')
-
-      }else if (textButton) {
-        textButton.classList.add('btn-change')
-        designButton.classList.remove('btn-change')
-        codeButton.classList.remove('btn-change')
-      }
-    };
-
-    /* Harmburger Menu */
-
-    let navLinks = document.querySelector(".nav-links");
-let hamburgerMenu = document.querySelector('.hamburger-menu');
-let hamburgerHideMenu = document.querySelector('.hamburger-hide-menu');
-let list = document.querySelector('.list');
-let section2 = document.querySelector('.section-2');
-let body = document.querySelector('.body');
-let section1 = document.querySelector('.section-1');
-let brandName = document.querySelector('.logo');
-
-  function showMenu() {
-    navLinks.style.right = "0";
-    hamburgerMenu.style.display ="none";
-    hamburgerHideMenu.style.display ="inline-block";
-    hamburgerHideMenu.cursor = "pointer";
-    list.style.display = "block";
-    section2.style.opacity = "0.05";
-    brandName.style.opacity = "0.1";
-    }
-  function hideMenu() {
-    navLinks.style.right = "-900px";
-    hamburgerMenu.style.display ="block";
-    hamburgerHideMenu.style.display ="none";
-    section2.style.opacity= "0.9";
-    brandName.style.opacity = "0.9";
+  } else if (designBtn) {
+    designBtn.classList.add('input-btns');
+     designBtn.classList.remove('design-btn');
   }
+}
 
-  </script> 
+function codeSwtich() {
+  if (codeBtn.classList.contains('input-btns') ) {
+    codeBtn.classList.remove('input-btns');
+    codeBtn.classList.add('code-btn');
+
+    designBtn.classList.remove('design-btn');
+    designBtn.classList.add('input-btns');
+
+    textBtn.classList.add('input-btns');
+     textBtn.classList.remove('code-btn');
+
+  } else if (codeBtn) {
+    codeBtn.classList.add('input-btns');
+    codeBtn.classList.remove('code-btn');
+  }
+}
+
+function textSwtich() {
+  if (textBtn.classList.contains('input-btns') ) {
+     textBtn.classList.remove('input-btns');
+     textBtn.classList.add('text-btn');
+
+     codeBtn.classList.add('input-btns');
+     codeBtn.classList.remove('code-btn');
+
+     designBtn.classList.add('input-btns');
+     designBtn.classList.remove('code-btn');
+
+  } else if (textBtn) {
+    textBtn.classList.add('input-btns');
+     textBtn.classList.remove('text-btn');
+  }
+}
+ </script>
 </body>
 </html>
