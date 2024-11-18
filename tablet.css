@@ -64,6 +64,9 @@ body {
   max-width: 45ch;
   white-space: nowrap;
 }
+.article-1-btn-container {
+  display: block;
+}
 .article-1-start-btn,
 .learn-btn {
   width: var(--BTN-WIDTH);
