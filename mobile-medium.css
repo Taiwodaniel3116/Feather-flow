@@ -1,9 +1,27 @@
 body {
   /* background: green; */
 }
+.brand-logo {
+  margin-top: 15px;
+}
+.brand-name {
+  padding-left: 45px;
+}
 .article-1-headline {
-  margin-left: 20px;
+  margin-left: 0;
   font-size: 2.5rem;
+  text-align: center;
+}
+.article-1-paragraph {
+  margin-left: 0;
+  text-align: center;
+}
+.nav-btn-container {
+  display: flex;
+  justify-content: center;
+}
+.article-1-start-btn {
+  margin-left: 0;
 }
 .sub-circle {
   left: 65px;
