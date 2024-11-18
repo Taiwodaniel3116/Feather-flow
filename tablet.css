@@ -15,9 +15,13 @@ body {
   --BTN-WIDTH:100px;
  }
 /* Nav section */
+ 
 .nav-section {
   display: grid;
   grid-template-columns: 1fr 350px 120px;
+}
+.nav-links-container {
+  display: contents;
 }
 .nav-links {
   display: block;
@@ -39,6 +43,10 @@ body {
   margin-left: 1.5rem;
   border-radius: 2rem;
   border: 1px groove #5454d4;
+}
+
+.ham-menu span {
+  display: none;
 }
 
 /* Article 1 */
@@ -124,6 +132,9 @@ body {
   left: 74%;
 }
 /* Article 3 */
+.article-3-headline {
+  font-size: var(--AH-FONT-SIZE);
+}
 .article-3-paragraph {
  margin: auto;
  width: 55ch;

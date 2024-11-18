@@ -39,8 +39,69 @@ body {
   color: grey;
   padding-left: 43px;
 }
-.nav-links {
-  display: none;
+.nav-links-container {
+  width: 100%;
+  max-width: 90%;
+  height: 100%;
+  background-color: var(--BG-COLOR-1);
+  float: right;
+  position: fixed;
+  top: 0;
+  right: -90%;
+  text-align: center;
+  transition: .3s ease;
+  z-index: 1;
+}
+.ham-menu {
+  display: flex;
+  justify-content: flex-end;
+}
+.ham-menu span {
+  width: 35px;
+  height: 3px;
+  border-radius: 5px;
+  background-color: #fff;
+  position: absolute;
+  top: 4%;
+  transform: translate(-50%, 50%);
+  transition: .2s ease;
+  z-index: 2;
+}
+.ham-menu span:nth-child(1) {
+  top: 5%;
+}
+.ham-menu span:nth-child(3) {
+  top: 6%;
+}
+
+/* Toggled */
+.nav-links-container.active {
+  right: 0;
+}
+.ham-menu.active span:nth-child(1) {
+  top: 5%;
+  transform: translate(-50%, -50%) rotate(45deg);
+}
+.ham-menu.active span:nth-child(2) {
+  opacity: 0;
+}
+.ham-menu.active span:nth-child(3) {
+  top: 5%;
+  transform: translate(-50%, -50%) rotate(-45deg);
+}
+
+ .nav-links {
+  display: flex;
+  flex-direction: column;
+  margin-top: 4rem;
+}
+.link {
+  text-decoration: none;
+  color: #fff;
+  font-size: 0.8rem;
+}
+.about-us {
+  padding-top: 1.5rem;
 }
 .link:hover {
   color: grey;
@@ -48,14 +109,92 @@ body {
 .nav-btn {
   background: #5454d4;
   margin-top: 1.5rem;
-  display: none;
+  /* display: none; */
 }
 .hamburger-open-menu {
   width: 25px;
   height: 25px;
   margin-top: 18px;
   margin-right: 10px;
+} 
+/*  */
+
+/* .offscreen-menu {
+  background-color:#000;
+  height: 50vh;
+  width: 100%;
+  max-width: 90%;
+  position: fixed;
+  top: 0;
+  right: -90%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center; 
+  font-size: 1.5rem;
+  transition: .3s ease;
+  z-index: 1;
 }
+ul li a{
+  color: white;
+  text-decoration: none;
+}
+li {
+  list-style:none;
+}
+button {
+  width: 100px;
+}
+.ham-menu-container {
+  padding: 1rem;
+  display: flex;
+  background-color: darkblue;
+  cursor: pointer;
+  justify-content: space-between;
+}
+
+.ham-menu {
+  height: 50px;
+  width: 50px;
+  position: relative;
+}
+.ham-menu span {
+  height: 7px;
+  width: 100%;
+  background-color: white;
+  border-radius: 5px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, 50%);
+  transition: .3s ease;
+  z-index: 2;
+}
+
+.ham-menu span:nth-child(1) {
+  top: 25%;
+}
+.ham-menu span:nth-child(3){
+  top: 75%;
+}
+
+/* When toggled */
+ /*.offscreen-menu.active {
+  right: 0;
+}
+.ham-menu.active span:nth-child(1) {
+  top: 50%;
+  transform: translate(-50%, -50%) rotate(45deg);
+}
+.ham-menu.active span:nth-child(2) {
+  opacity: 0;
+}
+.ham-menu.active span:nth-child(3){
+  top: 50%;
+  transform: translate(-50%, -50%) rotate(-45deg);
+}   */
+/*  */
+
 /* ARTICLE-1 */
 .article-1 {
   height: max-content;

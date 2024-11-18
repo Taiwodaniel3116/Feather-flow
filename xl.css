@@ -168,9 +168,25 @@ body {
 .article-6-headline {
   font-size: var(--AH-FONT-SIZE);
 }
+.article-2-circle::before {
+  width: 85%;
+  height: 90rem;
+}
 .container-frame  {
   height: 40rem; 
   gap: 4rem;
+}
+.rectangle-1 {
+  width: 25.51425rem;
+  height: 6.52125rem;
+  top: 10px;
+  left: 78%;
+}
+.rectangle-2 {
+  width: 54.69575rem;
+  height: 8.7541875rem;
+  top: 33%;
+  left: 60%;
 }
 .schedule-frame,
 .launch-frame {
@@ -328,7 +344,7 @@ footer {
   margin-right: 2rem;
 }
   .footer-paragraph {
-    margin-right: 19rem;
+    margin-right: 18rem;
     font-size: 1.3rem;
     }
   .footer-mail {
@@ -344,6 +360,7 @@ footer {
     height: 60px;
     width: 200px;
     margin-right: 10rem;
+    margin-top: 23px;
   }
   .footer-icon-container {
     margin-left: 6rem;

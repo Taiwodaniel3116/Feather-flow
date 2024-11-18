@@ -26,14 +26,20 @@
     <div class="brand-logo">
       <p class="brand-name">FEATHER <br>FLOW</p>
     </div>
-   <div class="nav-links">
+    <div class="nav-links-container js-ham-menu-container">
+   <div class="nav-links ">
+
       <a href="#" class=" link our-process">Our process</a>
       <a href="#" class=" link about-us">About Us</a>
    </div>
    <button class=" btn nav-btn">Start Now</button>
-   <!-- <img src="/images/rbg hamburger menu.png" alt="" width="35" height="35"> -->
+  </div>
+  <div class="ham-menu js-ham-menu">
+    <span></span><span></span><span></span>
+  </div>
 </section>
 </header>
+
 <!--  -->
 <main>
 <article class="article-1">
@@ -373,61 +379,6 @@ We're a core team of developers and designers based in Germany, complemented by 
 </footer> 
 
 </main>
- <script>
-  const designBtn = document.querySelector('.design-btn');
-const codeBtn = document.querySelector('.code-btn');
-const textBtn = document.querySelector('.text-btn');
-
-function designSwitch() {
-   if (designBtn.classList.contains('input-btns')) {
-     designBtn.classList.remove('input-btns');
-     designBtn.classList.add('design-btn');
-
-     codeBtn.classList.add('input-btns');
-     codeBtn.classList.remove('code-btn');
-
-     textBtn.classList.add('input-btns');
-     textBtn.classList.remove('code-btn');
-
-  } else if (designBtn) {
-    designBtn.classList.add('input-btns');
-     designBtn.classList.remove('design-btn');
-  }
-}
-
-function codeSwtich() {
-  if (codeBtn.classList.contains('input-btns') ) {
-    codeBtn.classList.remove('input-btns');
-    codeBtn.classList.add('code-btn');
-
-    designBtn.classList.remove('design-btn');
-    designBtn.classList.add('input-btns');
-
-    textBtn.classList.add('input-btns');
-     textBtn.classList.remove('code-btn');
-
-  } else if (codeBtn) {
-    codeBtn.classList.add('input-btns');
-    codeBtn.classList.remove('code-btn');
-  }
-}
-
-function textSwtich() {
-  if (textBtn.classList.contains('input-btns') ) {
-     textBtn.classList.remove('input-btns');
-     textBtn.classList.add('text-btn');
-
-     codeBtn.classList.add('input-btns');
-     codeBtn.classList.remove('code-btn');
-
-     designBtn.classList.add('input-btns');
-     designBtn.classList.remove('code-btn');
-
-  } else if (textBtn) {
-    textBtn.classList.add('input-btns');
-     textBtn.classList.remove('text-btn');
-  }
-}
- </script>
+ <script src="index.js"></script>
 </body>
 </html>
