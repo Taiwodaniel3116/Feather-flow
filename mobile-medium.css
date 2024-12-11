@@ -5,22 +5,14 @@ body {
   margin-top: 15px;
 }
 .brand-name {
-  padding-left: 45px;
+  padding-left: 5px;
+  padding-top: 10px;
 }
 .article-1-headline {
   margin-left: 0;
   font-size: 2.5rem;
-  text-align: center;
 }
 .article-1-paragraph {
-  margin-left: 0;
-  text-align: center;
-}
-.article-1-btn-container {
-  display: flex;
-  justify-content: center;
-}
-.article-1-start-btn {
   margin-left: 0;
 }
 .sub-circle {
@@ -30,4 +22,80 @@ body {
   margin: auto;
   margin-top: 50px;
   width: 17ch;
+}
+.article-1-start-btn,
+.learn-btn{
+  width: 100px;
+  height: 35px;
+}
+/* CIRCLE */
+.circle-1,
+.circle-2,
+.circle-3 {
+  width: 300px;
+  height: 300px;
+}
+.square {
+  width: 255px;
+  height: 270px;
+}
+.full-stack-mvp {
+  font-size: 0.8rem;
+}
+.text-input {
+  height: 30px;
+}
+.design-btn,
+.code-btn,
+.text-btn{
+   padding: 2px 10px;
+   font-size:0.7rem ;
+  }
+  .input-btns { /* when you click on the buttons */
+    font-size: 0.6rem;
+   }
+.invite,
+.project-lead {
+  font-size: 0.7rem;
+}
+.email-input {
+  width: 62%;
+  height: 30px;
+}
+.email-input::placeholder {
+  padding-left: 10px;
+  font-size: 0.6rem;
+}
+.share-btn {
+  width: 23%;
+  height: 30px;
+}
+.lead-name {
+  font-size: 0.7rem;
+}
+.bulb-frame {
+  width: 45px;
+  height: 45px;
+  bottom: 81%;
+  left: -7%; 
+ } 
+ .bulb-card {
+  width: 35px;
+  height: 35px;
+}
+.bulb {
+  width: 25px;
+  height: 25px;
+}
+.star-icon {
+  width: 40px;
+  height: 40px;
+  left: 95%;
+  bottom: 99%;
+}
+.speed-icon { 
+  width: 50px;
+  height: 50px;
+  left: 86%;
+  top:36%;
 }

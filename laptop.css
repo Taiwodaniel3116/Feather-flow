@@ -38,20 +38,21 @@ body {
 }
 .circle-1 {
   margin: 0;
-  margin-left: 6rem;
-  width: 280px;
-  height: 280px;
+  margin-left: 4rem;
+  width: 300px;
+  height: 300px;
 }
-.circle-2 {
-  width: 280px;
-  height: 280px;
+.circle-2,
+.circle-3 {
+  width: 300px;
+  height: 300px;
 }
 .square {
-  width: 235px;
-  height: 250px;
+  width: 255px;
+  height: 270px;
 }
 .full-stack-mvp {
-  font-size: 0.7rem;
+  font-size: 0.8rem;
   padding: 13px;
 }
 .text-input {
@@ -61,21 +62,22 @@ body {
 .code-btn,
 .text-btn{
    padding: 5px 13px;
-   font-size:0.6rem ;
+   font-size: 0.7rem;
   }
   .input-btns {
     padding: 5px 13px;
+   font-size: 0.6rem;
    }
 .invite,
 .project-lead {
-  font-size: 0.6rem;
+  font-size: 0.7rem;
 }
 .email-input {
   width: 63%;
   height: 30px;
 }
 .share-btn {
-  width: 22%;
+  width: 23%;
   height: 30px;
 }
 .project-lead-img-1,
@@ -90,6 +92,8 @@ body {
 .bulb-frame {
   width: 45px;
   height: 45px;
+  bottom: 81%;
+  left: -7%;
  } 
  .bulb-card {
   width: 35px;
@@ -99,8 +103,17 @@ body {
   width: 23px;
   height: 23px;
  }
+ .star-icon {
+  width: 40px;
+  height: 40px;
+  left: 95%;
+  bottom: 99%;
+}
 .speed-icon { 
-  left: 86%;
+  width: 50px;
+  height: 50px;
+  left: 87%;
+  top:36%;
 }
 /* Article 2 */
 .article-2-headline {

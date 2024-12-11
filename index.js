@@ -1,11 +1,11 @@
 // HAMBURGER MENU
-const hamMenu= document.querySelector('.js-ham-menu');
-const  hamMenuContainer = document.querySelector('.js-ham-menu-container');
+const hamburgerMenu = document.querySelector('.js-ham-menu');
+const navContainer = document.querySelector('.js-nav-container');
 
-   hamMenu.addEventListener('click', () => {
-    hamMenu.classList.toggle('active');
-    hamMenuContainer.classList.toggle('active');
-   });
+hamburgerMenu.addEventListener('click', () => {
+  navContainer.classList.toggle('active');
+  hamburgerMenu.classList.toggle('active');
+});
 //
 
 

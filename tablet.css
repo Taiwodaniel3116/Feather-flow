@@ -14,40 +14,8 @@ body {
   /* BTN WIDTH */
   --BTN-WIDTH:100px;
  }
-/* Nav section */
- 
-.nav-section {
-  display: grid;
-  grid-template-columns: 1fr 350px 120px;
-}
-.nav-links-container {
-  display: contents;
-}
-.nav-links {
-  display: block;
-  margin-left: 10rem;
-  margin-top:1rem;
-}
-.link {
-  color: #fff;
-  text-decoration: none;
-  font-size: 0.7rem;
-  cursor: pointer;
-}
-.about-us {
-  margin-left: 1rem;
-}
-.nav-btn {
-  display: block;
-  margin-top: 1rem;
-  margin-left: 1.5rem;
-  border-radius: 2rem;
-  border: 1px groove #5454d4;
-}
 
-.ham-menu span {
-  display: none;
-}
+
 
 /* Article 1 */
 .article-1 {
@@ -56,13 +24,16 @@ body {
   align-items: center;
 }
 .article-1-headline {
+  text-align: start;
   margin-left: 50px;
   max-width: 15ch;
 }
 .article-1-paragraph {
+  text-align: start;
   margin-left: 50px;
-  max-width: 45ch;
-  white-space: nowrap;
+  max-width: 50ch;
+  padding-inline-start: 0;
+  padding-inline-end: 0;
 }
 .article-1-btn-container {
   display: block;
@@ -74,20 +45,84 @@ body {
 .article-1-start-btn {
   margin-left: 50px;
 }
-.circle-1 {
-  margin-left: 50px;
-}
+/* CIRCLE */
+.circle-1,
+.circle-2,
 .circle-3 {
-  left: 15%;
-  bottom: 10%;
+  width: 250px;
+  height: 250px;
+}
+.circle-1 {
+  margin-bottom: 3rem;
+}
+.square {
+  width: 205px;
+  height: 220px;
+}
+.full-stack-mvp {
+  font-size: 0.6rem;
+}
+.text-input {
+  height: 25px;
+}
+.design-btn,
+.code-btn,
+.text-btn{
+  font-size:0.6rem ;
+}
+.input-btns { /* when you click on the buttons */
+  font-size: 0.5rem;
+ }
+ .invite,
+ .project-lead {
+   font-size: 0.6rem;
+ }
+ .email-input {
+  width: 60%;
+  height: 25px;
+}
+.email-input::placeholder {
+  padding-left: 5px;
+  font-size: 0.5rem;
+}
+.share-btn {
+  width: 22%;
+  height: 25px;
+}
+.lead-name {
+  font-size: 0.6rem;
+  margin-top: 5px;
 }
 .project-lead-img-1,
 .project-lead-img-2 {
   width: 12%;
   height: 12%;
 }
-.lead-name {
-  margin-top: 5px;
+.bulb-frame {
+  width: 40px;
+  height: 40px;
+  bottom: 77%;
+  left: -7%; 
+ } 
+.bulb-card {
+  width: 30px;
+  height: 30px;
+}
+.bulb {
+  width: 20px;
+  height: 20px;
+}
+.star-icon {
+  width: 35px;
+  height: 35px;
+  left: 91%;
+  bottom: 96%;
+}
+.speed-icon { 
+  width: 45px;
+  height: 40px;
+  left: 82%;
+  top:40%;
 }
 /* Article 2 */
 .article-2-headline {
