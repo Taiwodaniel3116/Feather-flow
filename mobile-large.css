@@ -5,4 +5,8 @@ body {
 .article-1-headline {
   font-size: 2.5rem;
 }
+.article-1-paragraph {
+  padding-inline-start: 1rem;
+  padding-inline-end: 1rem;
+}
 

@@ -53,8 +53,9 @@ body {
 }
 .article-1-paragraph {
   font-size: var(--AP-FONT-SIZE);
+  margin: auto;
   margin-left: 12rem;
-  white-space: nowrap;
+  width: 50ch;
 }
 .article-1-start-btn {
   margin-left: 12rem;
@@ -163,6 +164,13 @@ body {
   top:37%;
 }
 /* Article 2 */
+.article-2-headline,
+.article-3-headline,
+.article-4-headline,
+.article-5-headline,
+.article-6-headline{
+  line-height: 4.5rem;
+}
 .article-2-circle::before {
   width: 93.75rem;
   height: 71.875rem;

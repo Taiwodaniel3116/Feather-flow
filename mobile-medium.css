@@ -1,6 +1,4 @@
-body {
-  /* background: green; */
-}
+
 .brand-logo {
   margin-top: 15px;
 }
@@ -98,4 +96,13 @@ body {
   height: 50px;
   left: 86%;
   top:36%;
+}
+/* Article 2 */
+.article-2-headline,
+.article-3-headline,
+.article-4-headline,
+.article-5-headline,
+.article-6-headline {
+ font-size: 2rem;
+ line-height: 2rem;
 }
