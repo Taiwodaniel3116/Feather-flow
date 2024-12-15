@@ -313,8 +313,8 @@ button {
   margin-top: 0px;
   line-height: 0.9rem;
   text-align: center;
-  padding-inline-start: 0.5rem;
-  padding-inline-end: 0.5rem;
+  padding-inline-start: 1rem;
+  padding-inline-end: 1rem;
 }
 .days {
   /* color: rgb(101, 32, 179); */
@@ -524,7 +524,7 @@ button {
 .article-4-headline,
 .article-5-headline,
 .article-6-headline {
-  margin-top: 60px;
+  margin-top: 70px;
   color: white;
   text-align: center;
   font-weight: bold;
@@ -539,18 +539,13 @@ button {
   text-align: center;
   margin-inline: 1rem;
   margin-top: var(--P-MARGIN-TOP);
-  line-height: 0.8rem;
+  line-height: 0.9rem;
 }
-.article-2-circle::before {
+/* .article-2-circle::before {
   content: "";
   width: 300px;
   height: 870px;
   border-radius: 50%;
-  /* background: linear-gradient(
-    rgb(109, 3, 82),
-     rgb(99, 70, 99),
-    rgb(43, 11, 35)
-  ); */
   background: linear-gradient(
     rgb(48, 23, 42),
      rgb(80, 11, 80),
@@ -562,7 +557,7 @@ button {
   position: absolute;
    left: 3%;
   top: 3%;
-}
+} */
 .rectangle-1 {
   width: 150px;
   height: 50px;
