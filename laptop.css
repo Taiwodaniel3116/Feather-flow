@@ -13,7 +13,7 @@ body {
   --BTN-WIDTH:100px;
  }
 .btn {
-  border-radius: 2rem;
+  border-radius: 0.5rem;
 }
 .brand-logo {
   margin-left: 20px;
@@ -46,6 +46,10 @@ body {
 .circle-3 {
   width: 300px;
   height: 300px;
+}
+.circle-3  {
+  bottom: 30%;
+  right: -10%;
 }
 .square {
   width: 255px;

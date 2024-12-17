@@ -1,6 +1,5 @@
 body {
   background:var(--BG-COLOR-1);
-   
   font-family: "Poppins", sans-serif;
   font-weight: 100;
   font-style: normal;
@@ -29,6 +28,7 @@ body {
  header {
   margin-bottom: 0;
   border-bottom: 1px solid grey;
+  height: 100px;
 }
 .brand-container {
   display: flex;
@@ -931,7 +931,7 @@ footer {
   padding-top: 30px;
   font-weight: normal;
   font-size: 0.6rem;
-  margin-top: 25px;
+  margin-top: 30px;
   color: #fff;
   text-align: center;
 }
