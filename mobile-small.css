@@ -231,7 +231,8 @@ li {
 .code-btn,
 .text-btn{
    background-color: whitesmoke;
-  color: green;
+  color: #000;
+  font-weight: bold;
    padding: 2px 10px;
    border: none;
    border-radius: 5px;
@@ -239,6 +240,8 @@ li {
    font-size:0.6rem ;
   }
   .input-btns {
+  color: #000;
+  font-weight: bold;
     background-color: transparent;
     padding: 2px 10px;
     border: none;
@@ -263,6 +266,7 @@ li {
   border-radius: 3px;
   outline: none;
   background-color: rgb(230, 230, 230);
+  font-weight: bold;
 }
 .email-input::placeholder {
   padding-left: 5px;
