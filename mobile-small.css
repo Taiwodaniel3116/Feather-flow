@@ -231,7 +231,7 @@ li {
 .code-btn,
 .text-btn{
    background-color: whitesmoke;
-   color: #000;
+  color: green;
    padding: 2px 10px;
    border: none;
    border-radius: 5px;
