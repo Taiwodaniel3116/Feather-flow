@@ -39,9 +39,8 @@ body {
   margin-top:1.5rem;
 }
 .about-us {
-  margin-left: 50px;
+  padding-left: 1.3rem;
 }
-
  /* Article 1 */
  .article-1 {
  margin-top: 6rem;
@@ -68,8 +67,6 @@ body {
   font-size: var(--BTN-FONT-SIZE);
  }
 .circle-1 {
-  /* width: 350px;
-  height: 350px; */
   width: 480px;
   height: 480px;
   margin-left: 110%;
@@ -318,7 +315,7 @@ font-size: 1.25rem;
   width: 35px;
   height: 35px;
 }
-/* Article 6 */
+  /* Article 6 */
 .article-6 {
   height: 60vh;
   background: #1e1e20;
@@ -343,7 +340,6 @@ font-size: 1.25rem;
   bottom: 0;
   border: 4px solid #5454d4;
   transform: rotate(-180deg);
-  /* clip-path: circle(58.3% at 78% 40%); */
   clip-path: circle(65% at 78% 40%);
 }
 .rectangle-5 {
@@ -352,7 +348,7 @@ font-size: 1.25rem;
   left: 74%;
   bottom: 55%;
   opacity: 0.4;
-}
+} 
 
 /* Footer */ 
 footer {

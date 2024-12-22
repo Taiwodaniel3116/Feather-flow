@@ -26,6 +26,7 @@ body {
  }
  ul li a {
   line-height: 0;
+  font-size: 0.75rem;
 }
 .nav-links {
   flex-direction: row;
@@ -43,7 +44,7 @@ body {
 .nav-btn {
   margin-top: 0.7rem;
 }
-.about-us-btn {
+.about-us {
   padding-left: 1rem;
 }
 

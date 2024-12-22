@@ -6,9 +6,9 @@ body {
     /* FONT-SIZES */
     --AH-FONT-SIZE: 6rem;
     --AP-FONT-SIZE: 1.6rem;
-    --BTN-FONT-SIZE: 1.2rem;
+    --BTN-FONT-SIZE: 1.4rem;
     /* BTN WIDTH */
-    --BTN-WIDTH:250px;
+    --BTN-WIDTH:270px;
     --BTN-HEIGHT:70px;
 }
 .nav-section {
@@ -21,24 +21,28 @@ body {
 }
  .brand-name {
   font-size: 2.6rem;
-  padding-left: 140px;
  }
  .nav-links {
   margin-top: 3.5rem;
+  margin-right: 4rem;
  }
- .link {
+ ul li a {
   font-size: 1.7rem;
-}
+ }
 .nav-btn {
-  width: 200px;
+  width: 250px;
   height: var(--BTN-HEIGHT);
   font-size: var(--BTN-FONT-SIZE);
   margin-top:2.5rem;
 }
+.about-us {
+  padding-left: 2rem;
+}
 
 /* ARTICLE 1 */
-.article-1 {
+  .article-1 {
   margin-top: 8rem;
+  margin-bottom: 25rem;
  }
   .article-1-headline {
    font-size: 7.5rem;
@@ -49,8 +53,13 @@ body {
   margin-left: 18rem;
   line-height: 2..5rem;
 }
+.article-1-btn-container {
+  display: inline-flex;
+  margin-top: 1.5rem;
+}
 .article-1-start-btn {
   margin-left: 18rem;
+  margin-right: 1.5rem;
   width: var(--BTN-WIDTH);
   height: var(--BTN-HEIGHT);
   font-size: var(--BTN-FONT-SIZE);
@@ -59,11 +68,14 @@ body {
 .learn-btn {
   margin-bottom: 0;
 }
+.learn-btn {
+  margin-top: 1rem;
+}
 .circle-1 {
   width: 680px;
   height: 680px;
-  margin-left: 200%;
-  margin-bottom: 7rem;
+  margin-left: 950px;
+  margin-bottom: -100px;
 }
 .circle-2 {
   width: 680px;
@@ -153,13 +165,13 @@ body {
 .speed-icon { 
   width: 100px;
   height: 98px;
-  /* top:37%; */
   left: 86.5%
-}
+} 
 
 /* ARTICLE 2 */
 .article-2{
   margin-top: 150px;
+  margin-bottom: 20rem;
 }
 .article-2-headline,
 .article-3-headline,
@@ -168,26 +180,28 @@ body {
 .article-6-headline {
   font-size: var(--AH-FONT-SIZE);
 }
-.article-2-circle::before {
-  width: 85%;
-  height: 90rem;
+.article-2-headline {
+  line-height: 7rem;
+}
+.article-2-paragraph {
+  padding-top: 3rem;
 }
 .container-frame  {
   height: 40rem; 
   gap: 4rem;
 }
 .rectangle-1 {
-  width: 25.51425rem;
-  height: 6.52125rem;
-  top: 10px;
-  left: 78%;
+  width: 32rem;
+  height: 10rem;
+  top: -60px;
+  left: 76%;
 }
 .rectangle-2 {
-  width: 54.69575rem;
-  height: 8.7541875rem;
-  top: 33%;
-  left: 60%;
-}
+  width: 60rem;
+  height: 12rem;
+  top: 35%;
+  left: 55%;
+} 
 .schedule-frame,
 .launch-frame {
   width: 55rem;
@@ -195,30 +209,34 @@ body {
 }
 .schedule-icon-frame,
 .launch-icon-frame {
-  width: 80px;
-  height: 80px;
+  width: 100px;
+  height: 100px;
   margin-top: 30px;
-
 }
 .schedule-icon,
 .rocket-icon {
-  width: 50px;
-  height: 50px;
+  width: 55px;
+  height: 55px;
 }
 .frame-headlines {
   max-width: 30ch;
   margin-top: 20px;
-  font-size: 1.7rem;
+  font-size: 2rem;
   letter-spacing: 3px;
 }
 .frame-paragraph {
-  font-size: 1.4rem;
+  font-size: 1.6rem;
   margin-top: 20px;
   width: 39ch;
 }
 /* ARTICLE 3 */
 .article-3 {
   margin-top: 150px;
+  margin-bottom: 13rem;
+  border-bottom: none;
+}
+.article-3-paragraph {
+  padding-top: 3rem;
 }
 .flow-container {
   grid-template-rows: repeat(2, 300px);
@@ -230,7 +248,7 @@ body {
 .test,
 .launch,
 .iterate {
- font-size: 1.5rem;
+ font-size: 1.6rem;
 }
 .initial-chat-icon-frame,
 .rapid-dev-icon-frame,
@@ -238,45 +256,49 @@ body {
 .plan-design-icon,
 .test-icon,
 .launch-icon  {
-  width: 89px;
-  height: 89px;
+  width: 100px;
+  height: 100px;
 }
 .initial-chat-icon,
 .rapid-dev-icon,
 .iterate-icon {
-  width: 65px;
-  height: 65px;
+  width: 70px;
+  height: 70px;
 }
 /* ARTICLE 4 */
 .article-4 {
-  margin-top: 150px;
+  margin-top: 0;
+  margin-bottom: 13rem;
+  border-bottom: 1px solid white;
 }
 .bitmap-img {
-  width: 600px;
-  height: 600px;
+  width: 650px;
+  height: 650px;
  }
  .sub-circle {
   height:270px;
   width: 270px;
   left: 400px;
-  bottom: 390px;
+  bottom: 400px;
  }
  .rectangle-3 {
   width: 600px;
   height: 130px;
-  top: 600px;
+  top: 650px;
   left: 60px;
 }
 .article-4-headline {
-  /* font-size: 6rem; */
   margin-right: 0;
+  line-height: 7rem;
 }
 .article-4-paragraph {
-  /* font-size: 1.6rem; */
+  line-height: 2.6rem;
   margin-right: 13rem;
+  padding-top: 3rem;
 }
 .article-4-start-btn {
   margin-left: 2.5rem;
+  font-size: var(--BTN-FONT-SIZE);
  }
 .article-4-container {
  margin-right: 19rem;
@@ -284,12 +306,16 @@ body {
 /* Article 5 */
 .article-5 {
   margin-top: 150px;
+  margin-bottom: 13rem;
 }
 .team-container {
   grid-template-columns:repeat(3, 750px);
 }
 .article-5-headline {
   max-width: 25ch;
+}
+.article-5-paragraph {
+  padding-top: 3rem;
 }
 .pictures {
   width: 150px;
@@ -305,72 +331,85 @@ body {
 .x-icon,
 .web-icon,
 .linkedin-icon {
-  width: 45px;
-  height: 45px;
+  width: 50px;
+  height: 50px;
   margin-top: 40px;
 }
 .team-about {
   width: 37ch;
 }
-/* ARTICLE 6 */
+.web-icon {
+  margin-right: 20px;
+  margin-left: 20px;
+}
+ 
+/* Article 6 */
 .article-6 {
-  margin-top: 150px;
+  height: 70vh;
+  margin-bottom: 13rem;
 }
 .article-6-headline {
-  max-width: 25ch;
+  font-size: var(--AH-FONT-SIZE);
+  line-height: 7rem;
 }
 .article-6-paragraph {
-  margin: auto;
-  width: 64ch;
-  margin-bottom: 30px;
+  line-height: 2.6rem;
+  padding-top: 3rem;
+}
+.article-6-start-btn {
+  font-size: var(--BTN-FONT-SIZE);
+  margin-top: 3rem;
+}
+.semi-circle {
+  width: 500px;
+  height: 500px;
+}
+.rectangle-4 {
+  width: 400px;
+  height: 150px;
+  bottom: 250px;
+  left: -100px;
 }
 .circle-4 {
-  width: 550px;
-  height: 570px;
-  /* left: 73%;
-  bottom: 0; */
-  /* clip-path: circle(58.3% at 78% 40%); */
-  /* clip-path: circle(65% at 78% 40%); */
+  width: 650px;
+  height: 670px;
+  left: 75%;
 }
-/* FOOTER */
-footer {
-  margin-top: 150px;
-}
-.footer-navs {
-  margin-left: 6rem;
-}
-.footer-nav {
-  font-size: 1.4rem;
-  margin-right: 2rem;
-}
+.rectangle-5 {
+  width: 520px;
+  height: 170px;
+  left: 74%;
+  bottom: 55%;
+  opacity: 0.4;
+} 
+
+   /* Footer */
+   .footer-nav {
+    font-size: 1.5rem;
+  }
   .footer-paragraph {
-    margin-right: 18rem;
-    font-size: 1.3rem;
-    }
+    font-size: 1.5rem;
+  }
   .footer-mail {
-    height: 85px;
-    font-size: 1rem;
-    margin-right: 10rem;
-    border-radius: 20px;
+    width: 32%;
+    height: 90px;
   }
   .footer-mail::placeholder {
     font-size: 1.2rem;
   }
   .footer-sub-btn {
-    height: 60px;
+    font-size: var(--BTN-FONT-SIZE);
+    height: 80px;
     width: 200px;
-    margin-right: 10rem;
-    margin-top: 23px;
   }
   .footer-icon-container {
-    margin-left: 6rem;
-    top: 60px;
+    top: 190px;
   }
   .footer-icons {
-    width: 45px;
-    height: 45px;
+    width: 50px;
+    height: 50px;
+    margin: 1.5rem;
   }
   .copyright {
     font-size: 1.3rem;
-    margin-left: 6rem;
   }

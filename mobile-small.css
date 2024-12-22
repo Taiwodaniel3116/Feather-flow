@@ -3,6 +3,7 @@ body {
   font-family: "Poppins", sans-serif;
   font-weight: 100;
   font-style: normal;
+  box-sizing: border-box;
 }
 /* VARIABLES */
  :root {
@@ -81,8 +82,8 @@ li {
   border: none;
 }
 .ham-menu span {
-  width: 30px;
-  height: 3px;
+  width: 27px;
+  height: 2px;
   background-color: #fff;
   border-radius: 3px;
   position: absolute;
