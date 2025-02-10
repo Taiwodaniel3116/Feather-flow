@@ -3,6 +3,7 @@ const hamburgerMenu = document.querySelector('.js-ham-menu');
 const navContainer = document.querySelector('.js-nav-container');
 
 hamburgerMenu.addEventListener('click', () => {
+  document.body.classList.toggle('open');
   navContainer.classList.toggle('active');
   hamburgerMenu.classList.toggle('active');
 });
