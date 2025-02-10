@@ -318,7 +318,7 @@ li {
 .bulb-frame {
   width: 40px;
   height: 40px;
-  background:rgba(235, 235, 131, 0.986);
+  background-color: rgb(240, 240, 98);
   border-radius: 6px;
   display: flex;
   justify-content: center;
