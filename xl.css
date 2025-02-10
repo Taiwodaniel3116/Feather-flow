@@ -70,6 +70,7 @@ body {
 }
 .learn-btn {
   margin-top: 1rem;
+  font-size: var(--BTN-FONT-SIZE);
 }
 .circle-1 {
   width: 680px;
