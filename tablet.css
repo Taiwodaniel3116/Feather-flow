@@ -53,6 +53,7 @@ body {
   display: grid;
   grid-template-columns: 1fr 350px;
   align-items: center;
+  margin-top: 9rem;
 }
 .article-1-headline {
   text-align: start;

@@ -43,7 +43,7 @@ body {
 }
  /* Article 1 */
  .article-1 {
- margin-top: 6rem;
+ margin-top: 12rem;
 }
  .article-1-headline {
   font-size: 5rem;
@@ -137,7 +137,6 @@ body {
 .bulb-frame {
   width: 68px;
   height: 68px;
-  background: #ece4cc;
   border-radius: 6px;
   display: flex;
   justify-content: center;
@@ -182,7 +181,7 @@ body {
   height: 71.875rem;
 }
 .container-frame  {
-  width: 80%;
+  width: 85%;
   height: 34.0625rem; 
   border-radius: 30px;
   gap: 3rem;

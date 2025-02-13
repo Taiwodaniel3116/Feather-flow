@@ -29,7 +29,12 @@ body {
  /*  */
  header {
   margin-bottom: 0;
-  height: 100px;
+  height: 70px;
+  position: fixed;
+  width: 100%;
+  top: 0;
+  background-color:#19191b;
+  z-index: 99;
 }
 .brand-container {
   display: flex;
@@ -132,7 +137,7 @@ li {
 /* ARTICLE-1 */
 .article-1 {
   height: max-content;
-  margin-top: 2rem;
+  margin-top: 6rem;
 }
 .article-1-headline {
   color: white;
