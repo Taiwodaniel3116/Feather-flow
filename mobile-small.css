@@ -96,7 +96,7 @@ li {
   border-radius: 3px;
   position: absolute;
   top: 25px;
-  right: 10px;
+  right: 25px;
   z-index: 1;
   cursor: pointer;
   transition: 0.1s ease;
@@ -388,6 +388,24 @@ li {
   margin-inline: 1rem;
   margin-top: var(--P-MARGIN-TOP);
   line-height: 0.9rem;
+}
+.article-2-circle::before {
+  content: "";
+  width: 50%;
+  height: 1000px;
+  background: linear-gradient(
+    rgb(29, 51, 111),
+     rgb(68, 10, 68),
+    /* rgb(129, 51, 111) */
+    rgb(29, 51, 111)
+  );
+  backdrop-filter: blur 10px;
+  border-radius: 50%;
+  filter: blur(100px);
+  z-index: -1;
+  position: absolute;
+  left: 25%;
+  top: 1%;
 }
 .rectangle-1 {
   width: 150px;

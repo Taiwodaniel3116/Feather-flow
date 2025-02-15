@@ -186,6 +186,11 @@ body {
   border-radius: 30px;
   gap: 3rem;
 }
+.article-2-circle::before {
+  width: 80%;
+  height: 1500px;
+  left: 10%;
+}
 .rectangle-1 {
   width: 25.51425rem;
   height: 6.52125rem;

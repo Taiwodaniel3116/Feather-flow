@@ -140,6 +140,9 @@ ul li a {
 .article-2-paragraph {
   font-size: var(--AP-FONT-SIZE);
 }
+.article-2-circle::before {
+  left: 15%;
+}
 .rectangle-1 {
   width: 250px;
   height: 70px;
