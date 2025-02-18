@@ -1,16 +1,25 @@
 // HAMBURGER MENU
 const hamburgerMenu = document.querySelector('.js-ham-menu');
 const navContainer = document.querySelector('.js-nav-container');
+const backDrop = document.querySelector('.backdrop');
 
 hamburgerMenu.addEventListener('click', () => {
   document.body.classList.toggle('open');
   navContainer.classList.toggle('active');
   hamburgerMenu.classList.toggle('active');
+  backDrop.classList.toggle('active');
 });
 //
 
+backDrop.addEventListener('click', () => {
+  backDrop.classList.toggle('active');
+  document.body.classList.toggle('open');
+  navContainer.classList.toggle('active');
+  hamburgerMenu.classList.toggle('active');
+})
 
- const designBtn = document.querySelector('.design-btn');
+
+const designBtn = document.querySelector('.design-btn');
 const codeBtn = document.querySelector('.code-btn');
 const textBtn = document.querySelector('.text-btn');
 const squareContent1 = document.querySelector('.square-content1');

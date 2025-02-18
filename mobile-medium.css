@@ -1,4 +1,10 @@
 
+/* VARIABLES */
+:root {
+  /* FONT-SIZES */
+  --AP-FONT-SIZE:0.9rem;
+ }
+
 .brand-logo {
   margin-top: 15px;
 }
@@ -106,3 +112,14 @@
  font-size: 2rem;
  line-height: 2rem;
 }
+.frame-paragraph {
+  font-size: 0.8rem;
+}
+/* article-5 */
+.team-role {
+  font-size: var(--AP-FONT-SIZE);
+}
+ .team-about {
+  font-size: var(--AP-FONT-SIZE);
+  font-size: 0.8rem;
+} 
